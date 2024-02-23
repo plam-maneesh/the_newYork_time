@@ -1,3 +1,4 @@
+/*this is owtter wrap or main parent div*/
 .owtter-wrap {
 
   margin-left: 30px;
@@ -5,6 +6,10 @@
 
 }
 
+/*this is end owtter wrap*/
+
+
+/*Header firs row navbar style*/
 .row-nav1 {
 
   display: flex;
@@ -27,7 +32,7 @@
 
   margin: 0px 8px 0px 0px;
   padding: 8px 9px 9px;
- cursor: pointer;
+  cursor: pointer;
 }
 
 .nav-lang .menu-search-icon li {
@@ -44,6 +49,123 @@
   padding: 8px 12px;
   border-radius: 5px;
   border: none;
-cursor: pointer;
+  cursor: pointer;
 
 }
+
+/*end header first row nav style*/
+
+
+
+/* row 2 nav-header-style */
+
+.row2-nav-header {
+
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.row2-nav-header .col1-nav-header-list1 ul li {
+
+  list-style: none;
+
+
+
+}
+
+.col2-nav-header-heading a img {
+
+  width: 450px;
+  height: 80px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+
+}
+
+.col3-nav-rightSection ul {
+
+
+  display: flex;
+
+
+}
+
+.col3-nav-rightSection ul li {
+
+
+  list-style: none;
+  padding: 10px;
+
+
+}
+
+
+.row3-nav-dropdowns {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.row3-nav-dropdowns ul {
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.row3-nav-dropdowns ul li {
+
+  list-style: none;
+
+}
+
+.border {
+
+
+  border: solid 1px;
+  opacity: 10%;
+  box-shadow: 50px;
+
+
+}
+
+.row3-nav-dropdowns .dropdwn-list ul li {
+
+  font: 18px nyt-frankline, helvetica, arial, sans-serif;
+
+
+
+}
+
+
+
+.dropdwn-list ul li button {
+
+  background: none;
+  border: none;
+}
+
+.dropdwn-list ul li button img {
+
+  width: 18px;
+  cursor: pointer;
+
+
+
+
+}
+
+.line{
+
+border-bottom: double;
+
+
+}
+
+
+/* end row 2 nav-header-style *
