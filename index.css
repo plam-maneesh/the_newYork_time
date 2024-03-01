@@ -191,6 +191,21 @@
 /* end row 2 nav-header-style *
 
 
+/*main-content*/
+
+.main-content {
+
+  display: flex;
+
+
+
+
+}
+
+/*end main-content*/
+
+
+
 /*contend Heading*/
 
 .content_Heading {}
@@ -222,10 +237,15 @@
 
 /*content-1*/
 
+
 .content-list {
 
   display: flex;
-
+  border-bottom: solid 3px;
+  border-top: solid 3px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  list-style: none;
 
 }
 
@@ -239,3 +259,101 @@
 }
 
 /*end content-1*/
+
+/* content2 */
+.content2 {}
+
+.content2-list1 {
+
+  list-style: none;
+
+
+
+
+}
+
+.content2-item1 {}
+
+
+.content2_row2_content-list_head {
+
+
+
+  display: flex;
+
+}
+
+
+.content2_row2_content-list_head li {
+
+  list-style: none;
+
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.row-border {
+
+  border-left: solid;
+  margin-left: 40px;
+  border-width: 2px;
+
+
+
+}
+
+
+/* ent content2 */
+
+
+
+
+/* footer  */
+
+.footer {
+
+
+
+  border-top: double;
+
+  padding-bottom: 10px;
+}
+
+.f-row {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.f-list li span {
+
+  font-weight: 900;
+}
+
+.f-list li {
+
+  font-size: large;
+  list-style: none;
+  cursor: pointer;
+
+}
+
+.f-list2 {
+
+  display: flex;
+
+  border-top: solid 1px;
+  text-align: center;
+}
+
+.f-list2 li {
+
+  list-style: none;
+  font-size: large;
+  padding: 10px;
+
+}
+
+/* end footer */
